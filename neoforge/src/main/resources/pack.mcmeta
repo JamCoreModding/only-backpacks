@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "{{ name }}",
+        "description": "Only Backpacks",
         "pack_format": 15
     }
 }

@@ -1,27 +1,27 @@
 {
     "schemaVersion": 1,
-    "id": "{{ mod_id }}",
+    "id": "only_backpacks",
     "version": "${version}",
-    "name": "{{ name }}",
-    "description": "{{ description }}",
+    "name": "Only Backpacks",
+    "description": "Backpacks. That&#x27;s it.",
     "authors": [
-        "{{ author }}"
+        "Jamalam"
     ],
     "contact": {
-        "homepage": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "sources": "https://github.com/{{github_owner}}/{{github_repo}}",
-        "issues": "https://github.com/{{github_owner}}/{{github_repo}}/issues"
+        "homepage": "https://github.com/JamCoreModding/only-backpacks",
+        "sources": "https://github.com/JamCoreModding/only-backpacks",
+        "issues": "https://github.com/JamCoreModding/only-backpacks/issues"
     },
     "license": "MIT",
-    "icon": "assets/{{mod_id}}/icon.png",
+    "icon": "assets/only_backpacks/icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "{{group}}.{{mod_id}}.fabric.{{main_class}}Fabric"
+            "io.github.jamalam360.only_backpacks.fabric.OnlyBackpacksFabric"
         ]
     },
     "mixins": [
-        "{{mod_id}}.mixins.json"
+        "only_backpacks.mixins.json"
     ],
     "depends": {
         "fabric-api": ">=${fabric_api_version}",
