@@ -2,6 +2,10 @@ architectury {
     common(rootProject.enabled_platforms.split(","))
 }
 
+loom {
+    splitEnvironmentSourceSets()
+}
+
 dependencies {
     implementation libs.fabric.loader
     implementation libs.jamlib.common

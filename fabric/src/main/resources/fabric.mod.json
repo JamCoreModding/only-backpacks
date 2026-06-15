@@ -3,7 +3,7 @@
     "id": "only_backpacks",
     "version": "${version}",
     "name": "Only Backpacks",
-    "description": "Backpacks. That&#x27;s it.",
+    "description": "Backpacks. That's it.",
     "authors": [
         "Jamalam"
     ],
@@ -18,6 +18,9 @@
     "entrypoints": {
         "main": [
             "io.github.jamalam360.only_backpacks.fabric.OnlyBackpacksFabric"
+        ],
+        "client": [
+            "io.github.jamalam360.only_backpacks.fabric.OnlyBackpacksClientFabric"
         ]
     },
     "mixins": [

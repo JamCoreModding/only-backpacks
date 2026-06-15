@@ -8,10 +8,10 @@ modId = "only_backpacks"
 version = "${version}"
 displayName = "Only Backpacks"
 displayURL="https://github.com/JamCoreModding/only-backpacks"
-logoFile = "icon.png"
+logoFile = "assets/only_backpacks/icon.png"
 authors = "Jamalam"
 description = '''
-Backpacks. That&#x27;s it.
+Backpacks. That's it.
 '''
 
 [[dependencies.only_backpacks]]
