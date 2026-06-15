@@ -1,0 +1,11 @@
+name: build
+
+on:
+  - push
+  - pull_request
+
+jobs:
+  build:
+    uses: JamCoreModding/.github/.github/workflows/mod.yml@main
+    with:
+      java-version: 25
