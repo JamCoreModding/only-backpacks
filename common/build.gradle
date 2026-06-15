@@ -6,6 +6,14 @@ loom {
     splitEnvironmentSourceSets()
 }
 
+sourceSets {
+    main {
+        resources {
+            srcDirs 'src/generated/resources'
+        }
+    }
+}
+
 dependencies {
     implementation libs.fabric.loader
     implementation libs.jamlib.common

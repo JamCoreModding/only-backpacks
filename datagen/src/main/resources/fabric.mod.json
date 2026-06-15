@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "id": "only_backpacks",
+    "version": "${version}",
+    "name": "Only Backpacks",
+    "description": "Backpacks. That's it.",
+    "authors": [
+        "Jamalam"
+    ],
+    "contact": {
+        "homepage": "https://github.com/JamCoreModding/only-backpacks",
+        "sources": "https://github.com/JamCoreModding/only-backpacks",
+        "issues": "https://github.com/JamCoreModding/only-backpacks/issues"
+    },
+    "license": "MIT",
+    "icon": "assets/only_backpacks/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "io.github.jamalam360.only_backpacks.datagen.OnlyBackpacksBootstrap"
+        ],
+        "fabric-datagen": [
+            "io.github.jamalam360.only_backpacks.datagen.OnlyBackpacksDataGen"
+        ]
+    },
+    "mixins": [
+        "only_backpacks.mixins.json"
+    ],
+    "depends": {
+    }
+}

@@ -29,5 +29,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "only_backpacks"
 include("common")
+include("datagen")
 include("fabric")
 include("neoforge")

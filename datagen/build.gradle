@@ -1,0 +1,28 @@
+architectury {
+    platformSetupLoomIde()
+    fabric()
+}
+
+fabricApi {
+    configureDataGeneration {
+        client = true
+        createSourceSet = false
+        addToResources = false
+        outputDirectory = project(':common').file('src/generated/resources')
+    }
+}
+
+configurations {
+    common
+    compileClasspath.extendsFrom common
+    runtimeClasspath.extendsFrom common
+    developmentFabric.extendsFrom common
+}
+
+dependencies {
+    implementation libs.fabric.loader
+    implementation libs.fabric.api
+    implementation libs.jamlib.fabric
+
+    common(project(':common')) { transitive false }
+}
